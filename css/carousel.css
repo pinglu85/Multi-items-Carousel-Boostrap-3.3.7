@@ -1,0 +1,46 @@
+.carousel-inner {
+  display: flex;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .carousel-inner > .item.next,
+  .carousel-inner > .item.active.right {
+    left: 0;
+    -webkit-transform: translate3d(25%, 0, 0);
+    transform: translate3d(25%, 0, 0);
+  }
+  .carousel-inner > .item.prev,
+  .carousel-inner > .item.active.left {
+    left: 0;
+    -webkit-transform: translate3d(-25%, 0, 0);
+    transform: translate3d(-25%, 0, 0);
+  }
+}
+
+.block {
+  width: 306px;
+  height: 200px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.red {
+  background: red;
+}
+
+.green {
+  background: green;
+}
+
+.blue {
+  background: blue;
+}
+
+.yellow {
+  background: yellow;
+}
